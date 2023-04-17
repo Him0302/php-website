@@ -6,7 +6,10 @@ phases:
      - sudo apt install apache2 -y
      - sudo apt install mysql-server -y
      - sudo apt install php libapache2-mod-php php-mysql -y
-     - 
+     
+ pre_build:
+   commands:
+     - echo Nothing to do in the pre_build phase
  build:
    commands:
      - echo Build started on `date`
