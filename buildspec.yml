@@ -24,6 +24,6 @@ phases:
      # - /usr/bin/mysql  -u root -e "GRANT ALL ON *.* TO 'test'@'localhost' IDENTIFIED BY '' WITH GRANT OPTION"
      # - mysqladmin -u test create test
 
- artifacts:
-  files:
-    - /var/www/html/index.php     
+artifacts:
+ files:
+   - /var/www/html/index.php     
