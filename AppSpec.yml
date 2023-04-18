@@ -5,11 +5,11 @@ files:
     destination: /var/www/html/
 hooks:
   AfterInstall:
-    - location: install_dependencies
+    - location: install_dependencies.sh
       timeout: 300
       runas: root
   ApplicationStart:
-    - location: start_apache
+    - location: start_apache.sh
       timeout: 300
       runas: root     
  
