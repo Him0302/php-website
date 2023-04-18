@@ -12,6 +12,6 @@ hooks:
     - location: composer_install
       timeout: 300
       runas: codedeployuser
-    - location: aws-scripts/unittests
+    - location: unittests
       timeout: 3600
       runas: codedeployuser
