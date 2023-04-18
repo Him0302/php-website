@@ -9,9 +9,7 @@ hooks:
       timeout: 300
       runas: root
   AfterInstall:
-    - location: composer_install
+    - location: install_dependencies
       timeout: 300
-      runas: codedeployuser
-    - location: unittests
-      timeout: 3600
-      runas: codedeployuser
+      runas: root
+    
