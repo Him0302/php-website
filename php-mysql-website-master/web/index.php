@@ -16,18 +16,7 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
-    
-    <body>
-
-    <h1>My first PHP page</h1>
-    <?php
-    echo "Hello World!";
-    ?>
-
-    </body>
-    
-    
+<body> 
     <div id="wrapper">
 
         <!-- Navigation -->
