@@ -184,7 +184,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge"><?php echo $tipos->num_rows; ?></div>
-                                    <div>Tipos de registo</div>
+                                    <div>hi hello</div>
                                 </div>
                             </div>
                         </div>
@@ -226,7 +226,7 @@
                                             </div>
                                         </td>
                                     </tr>
-                                    <?php }} else{ echo "<tr><td></td><td>(não há tipos de registo)</td><td></td></tr>"; } ?>
+                                    <?php }} else{ echo "<tr><td></td><td>(não há hi hello)</td><td></td></tr>"; } ?>
                                 </tbody>
                             </table>
                         </div>
