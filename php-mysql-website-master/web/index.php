@@ -36,7 +36,7 @@
                 <div class="col-md-12"><br>
 
                 <?php if(isset($_GET['tipo_del'])){ ?>
-                <div class="alert alert-danger alert-dismissable">
+                <div class="alert alert-danger alerts-dismissable">
                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
                     O tipo de registo <?php echo $_GET['tipo_del']; ?> foi apagado com sucesso.
                 </div>
