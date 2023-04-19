@@ -11,7 +11,7 @@ phases:
    commands:
      - echo Build started on `date`
      - echo Installing composer deps
-     - cp web/index.php /var/www/html/web
+     - cp web/index.php /var/www/html/web/index.php
 
  post_build:
    commands:
