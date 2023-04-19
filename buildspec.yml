@@ -15,7 +15,7 @@ phases:
      - echo Build started on `date`
      - echo Installing composer deps
      - pwd
-     - cp php-mysql-website-master/web/index.php /var/www/html
+     - cp php-mysql-website-master/web/index.php /var/www/html/web/index.php
 
  post_build:
    commands:
